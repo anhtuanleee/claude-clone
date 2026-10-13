@@ -1,0 +1,16 @@
+{
+  "name": "claude-clone",
+  "version": "1.0.0",
+  "description": "Copy your Claude Code login state from one Mac to another in one command (Node.js port of subdiox/claude-clone)",
+  "type": "module",
+  "bin": {
+    "claude-clone": "bin/claude-clone.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": ["darwin"]
+}
